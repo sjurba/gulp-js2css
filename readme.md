@@ -1,6 +1,6 @@
-# gulp-js2css [![Build Status](https://travis-ci.org/sjurba/gulp-js2css.svg?branch=master)](https://travis-ci.org/sjurba/gulp-js2css)
+# gulp-js2css
 
-> My bedazzling gulp plugin
+> Preprocess JS to CSS using js2css
 
 
 ## Install
@@ -30,12 +30,7 @@ gulp.task('default', function () {
 
 #### options
 
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+##### 
 
 
 ## License

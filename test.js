@@ -3,20 +3,21 @@ var assert = require('assert');
 var gutil = require('gulp-util');
 var js2css = require('./');
 
-it('should ', function (cb) {
-	var stream = js2css();
+it('should process buffer', function(cb) {
+    var stream = js2css();
 
-	stream.on('data', function (file) {
-		assert.strictEqual(file.contents.toString(), 'unicorns');
-	});
+    stream.on('data', function(file) {
+        assert.strictEqual(file.contents.toString(), 'body{\n\tcolor: red;\n}\n');
+        assert.strictEqual(file.path, __dirname + '/file.css');
+    });
 
-	stream.on('end', cb);
+    stream.on('end', cb);
 
-	stream.write(new gutil.File({
-		base: __dirname,
-		path: __dirname + '/file.ext',
-		contents: new Buffer('unicorns')
-	}));
+    stream.write(new gutil.File({
+        base: __dirname,
+        path: __dirname + '/file.css.js',
+        contents: new Buffer('module.exports = {body : {color: "red"}};')
+    }));
 
-	stream.end();
+    stream.end();
 });

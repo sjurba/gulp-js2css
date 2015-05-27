@@ -1,12 +1,12 @@
 {
   "name": "gulp-js2css",
   "version": "0.0.0",
-  "description": "My bedazzling gulp plugin",
+  "description": "Preprocess JS to CSS using js2css",
   "license": "MIT",
   "repository": "sjurba/gulp-js2css",
   "author": {
     "name": "Sjur Bakka",
-    "email": "sjurba@gmail.com",
+    "email": "barsju@gmail.com",
     "url": "sjurba.github.io"
   },
   "engines": {
@@ -22,7 +22,9 @@
     "gulpplugin"
   ],
   "dependencies": {
+    "gulp": "^3.8.11",
     "gulp-util": "^3.0.4",
+    "js2css": "git://github.com/sjurba/js2css",
     "through2": "^0.6.5"
   },
   "devDependencies": {
