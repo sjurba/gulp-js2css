@@ -1,0 +1,31 @@
+{
+  "name": "gulp-js2css",
+  "version": "0.0.0",
+  "description": "My bedazzling gulp plugin",
+  "license": "MIT",
+  "repository": "sjurba/gulp-js2css",
+  "author": {
+    "name": "Sjur Bakka",
+    "email": "sjurba@gmail.com",
+    "url": "sjurba.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
