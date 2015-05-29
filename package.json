@@ -1,6 +1,6 @@
 {
   "name": "gulp-js2css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Preprocess JS to CSS using js2css",
   "license": "MIT",
   "repository": "sjurba/gulp-js2css",
