@@ -2,7 +2,7 @@
 
 > Preprocess JS to CSS using js2css
 
-https://github.com/sjurba/js2css
+[https://github.com/sjurba/js2css](https://github.com/sjurba/js2css)
 
 
 ## Install
