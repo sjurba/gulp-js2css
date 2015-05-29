@@ -24,7 +24,7 @@
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-util": "^3.0.4",
-    "js2css": "git://github.com/sjurba/js2css",
+    "js2css": "latest",
     "through2": "^0.6.5"
   },
   "devDependencies": {
